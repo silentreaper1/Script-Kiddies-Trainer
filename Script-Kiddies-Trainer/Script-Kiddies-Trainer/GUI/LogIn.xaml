@@ -1,4 +1,4 @@
-﻿<Window x:Class="Script_Kiddies_Trainer.LogIn"
+﻿<Window x:Class="Script_Kiddies_Trainer.GUI.LogIn"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -14,13 +14,13 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox x:Name="UserName_TextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="280"/>
-            <TextBox x:Name="PassWord_TextBox" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="PassWord" VerticalAlignment="Top" Width="280"/>
-            <Button x:Name="LogIn_Button" Content="LogIn" HorizontalAlignment="Left" Margin="215,66,0,0" VerticalAlignment="Top" Width="75" Background="#FFDDDDDD"/>
+            <TextBox x:Name="UserName_TextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="280" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="PassWord_TextBox" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="PassWord" VerticalAlignment="Top" Width="280" VerticalContentAlignment="Center"/>
+            <Button x:Name="LogIn_Button" Content="LogIn" HorizontalAlignment="Left" Margin="215,66,0,0" VerticalAlignment="Top" Width="75" Background="#FFDDDDDD" Click="LogIn_Button_Click"/>
             <Button x:Name="Register_Bttton"  Content="Register" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="74"/>
         </Grid>
         <Label HorizontalAlignment="Left" Margin="136,16,0,0" VerticalAlignment="Top"/>
         <Label Content="LogIn Screen" Margin="8,0,154,0"/>
-        <Label x:Name="LogIn_Close" Content="X" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.51,0.067" Height="30" Width="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseDown="LogIn_Close_MouseDown"/>
+        <Label x:Name="LogIn_Close" Content="X" HorizontalAlignment="Left" Margin="270,0,0,0" Height="30" Width="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseDown="LogIn_Close_MouseDown"/>
     </Grid>
 </Window>

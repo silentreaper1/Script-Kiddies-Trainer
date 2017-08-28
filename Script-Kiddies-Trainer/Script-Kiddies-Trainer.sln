@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Script-Kiddies-Trainer", "Script-Kiddies-Trainer\Script-Kiddies-Trainer.csproj", "{D5B47C3C-C913-41F0-B8EF-AF0EE1CD3821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKaob", "SKaob\SKaob.csproj", "{3FB198E0-F298-44E0-AEAF-C0CC93162CE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{D5B47C3C-C913-41F0-B8EF-AF0EE1CD3821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5B47C3C-C913-41F0-B8EF-AF0EE1CD3821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5B47C3C-C913-41F0-B8EF-AF0EE1CD3821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB198E0-F298-44E0-AEAF-C0CC93162CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB198E0-F298-44E0-AEAF-C0CC93162CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB198E0-F298-44E0-AEAF-C0CC93162CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB198E0-F298-44E0-AEAF-C0CC93162CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFE9BE3C-3667-4DBD-82BF-BEA2B0E9A922}
 	EndGlobalSection
 EndGlobal

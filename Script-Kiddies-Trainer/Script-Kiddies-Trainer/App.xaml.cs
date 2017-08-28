@@ -8,9 +8,7 @@ using System.Windows;
 
 namespace Script_Kiddies_Trainer
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
+
     public partial class App : Application
     {
     }

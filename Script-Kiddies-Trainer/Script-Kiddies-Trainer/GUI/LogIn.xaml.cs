@@ -12,8 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Script_Kiddies_Trainer.GUI;
 
-namespace Script_Kiddies_Trainer
+namespace Script_Kiddies_Trainer.GUI
 {
 
     public partial class LogIn : Window
@@ -23,13 +24,14 @@ namespace Script_Kiddies_Trainer
             InitializeComponent();
         }
 
-        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left) this.DragMove();
-        }
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e) { if (e.ChangedButton == MouseButton.Left) this.DragMove(); }
 
-        private void LogIn_Close_MouseDown(object sender, MouseButtonEventArgs e)
+        private void LogIn_Close_MouseDown(object sender, MouseButtonEventArgs e) { this.Close(); }
+
+        private void LogIn_Button_Click(object sender, RoutedEventArgs e)
         {
+            MainForm MainForm = new MainForm();
+            MainForm.Show();
             this.Close();
         }
     }
